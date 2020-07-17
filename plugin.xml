@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.thor.plugins.checkmocklocation"
+        version="0.7.0">
+
+  <name>Checkmocklocations</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/checkmocklocation.js" target="js/checkmocklocation.js"/>
+
+  <js-module src="www/checkmocklocation.js" name="checkmocklocation">
+    <clobbers target="checkmocklocation" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="checkmocklocation">
+        <param name="android-package" value="com.thor.plugins.checkmocklocation"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/checkmocklocation.java" target-dir="src/com/thor/plugins/"/>
+  </platform>
+
+
+</plugin>

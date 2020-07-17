@@ -1,0 +1,28 @@
+{
+  "name": "cordova-thor-plugin-checkmocklocation",
+  "version": "0.1.0",
+  "description": "A sample for a new cordova plugin",
+  "cordova": {
+    "id": "cordova-thor-plugin-checkmocklocation",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorcal1991/cordova-check-mock-location.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "hello",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Thorsten Callus",
+  "license": "Apache-2",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
